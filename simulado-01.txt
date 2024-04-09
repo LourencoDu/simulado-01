@@ -1,0 +1,62 @@
+Nome: Eduardo Lourenço da Silva
+
+1-)
+Algoritmo é um conjunto de instruções, ou comandos, para a realização de uma tarefa.
+
+2-)
+string ou charactere: tipo de texto, por exemplo: "olá mundo!";
+integer ou inteiro: valor numérico do tipo de inteiro, por exemplo: 90;
+float ou decimal: valor numérico com uma ou mais casas decimais, por exemplo 9.5;
+boolean ou boleano: valor boleano, utilizado para tomada de decisões, por exemplo: true e false.
+
+3-)
+váriavel é um valor que pode ser alterado durante a execução do programa ou algoritmo, já a constante se mantem inalterada durante toda a execução, ou seja, o valor definido inicialmente não é alterado.
+
+4-)
+As estruturas condicionais permitem que um programa 
+execute diferentes comandos de acordo com as condições estabelecidas em 
+PYTHON a sintaxe começa pelo comando if.
+
+5-)
+Um loop/estrutura de repetição é uma estrutura que permite a 
+execução repetida de um ou mais comando com base em uma 
+condição ou um intervalo. No PYTHON nós estudamos 
+especificamente os loops while e o for. 
+
+6-)
+tempo_foco = float(input("Entre com a quantidade de tempo do período de foco, em minutos: "))
+if(tempo_foco >= 25 and tempo_foco <= 45):
+  print(f"{tempo_foco} minutos é um tempo aceitável!")
+else:
+  print(f"{tempo_foco} minutos é não um tempo aceitável!")
+  
+7-)
+idade = int(input("Entre com a sua idade: "))
+categoria = "Adulto"
+
+if(idade <= 12):
+  categoria = "Criança"
+elif(idade < 18):
+  categoria = "Adolescente"
+
+print(f"Sua categoria: {categoria}")
+
+8-)
+numero = float(input("Entre com um número: "))
+if(numero > 0):
+  print("O número é positivo.")
+elif(numero < 0):
+  print("O número é negativo.")
+else:
+  print("O número é zero.")
+  
+9-)
+departamento = input("Entre com o nome do departamento: ")
+responsavel = input("Entre com o nome da pessoa responsável: ")
+print(f"O departamento de {departamento} é liderado por {responsavel}.")
+
+10-)
+numero = int(input("Entre com o número que deseja saber a tabuada: "))
+print(f"Tabuada de {numero}:")
+for multiplicador in range(1, 11):
+  print(f"{numero} x {multiplicador} = {numero * multiplicador}")
